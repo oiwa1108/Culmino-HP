@@ -10,8 +10,25 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="top-logo">
-    <a class="logo" href="#"><img src="image/mainlogo.png" alt="メインロゴ"></a>
+  <header>
+    <div class="hamburger-menu">
+      <input type="checkbox" id="menu-btn-check">
+      <label for="menu-btn-check" class="menu-btn"><span></span></label>
+      <div class="menu-content">
+        <ul>
+          <li><a href="terms.html">利用規約</a></li>
+          <li><a href="terms_instructor.html">インストラクター利用規約</a></li>
+          <li><a href="privacy.html">プライバシーポリシー</a></li>
+          <li><a href="commercial.html">特定商取引法の表示</a></li>
+          <li><a href="settlement.html">資金決済法に基づく表示</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+          <li><a href="index.html">企業情報</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="top-logo">
+      <a class="logo" href="#"><img src="image/mainlogo.png" alt="メインロゴ"></a>
+    </div>
   </header>
   <section>
     <h1 class="heading">お問い合わせ</h1>
@@ -71,7 +88,7 @@
       margin: 5px 0 30px;
     } */
     
-    @media screen and (max-width: 999px) {
+    @media screen and (max-width: 670px) {
       footer {
         margin: 120px 0 70px;
         padding: 14px 0;
